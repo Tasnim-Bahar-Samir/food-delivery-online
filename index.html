@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div class="navbar">
+            <div>
+                <span>Hungry!</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </nav>
     <section class="hero-sec">
         <div class="container">
             <div class="half-w">
@@ -31,14 +44,14 @@
             <div class="half-w ">
                 <img src="images/about.img.png" alt="">
             </div>
-            <div class="half-w ">
+            <div id="about" class="half-w ">
                 <h1>About Us</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quaerat corrupti qui mollitia facere ipsa quasi ipsam odit nulla illo eligendi soluta laborum facilis, ad id labore! Nesciunt repellat reprehenderit ullam quisquam quasi! Error adipisci illum, quod aliquid deserunt quis ad id odio dicta, nemo doloribus voluptatibus?</p>
                 <a href="" class="link">Contact Us</a>
             </div>
         </div>
     </section>
-    <section class="menu-sec">
+    <section id="menu" class="menu-sec">
         <h1>Our Menu</h1>
         <div class="menu">
             <div class="menu-cart">
@@ -99,7 +112,7 @@
             <p>Dribbble Shot Likes</p>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact ">
         <h1>Contact Us</h1>
         <div class="form-input">
             <input type="email" name="email" id="email" placeholder="Enter Yuor Email">
