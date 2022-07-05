@@ -30,6 +30,7 @@ nav{
     margin-bottom: 100px ;
 }
 .navbar span{
+    font-weight:600;
     font-size: 22px;
     color:rgb(81, 81, 248) ;
     font-family: 'Dancing Script', cursive;
@@ -53,7 +54,7 @@ nav{
     color: rgb(68, 66, 66);
     transition: .5s;
 }
-.nav-links a:hover{
+.nav-links a:hover, .nav-links a.active{
     color: rgb(81, 81, 248);
 }
 
@@ -69,7 +70,7 @@ nav{
 }
 section{
     
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .link{
     display: inline-block;
@@ -78,10 +79,12 @@ section{
     border-radius: 5px;
     text-decoration: none;
     padding: 10px 30px;
+    font-weight: 700;
     background-image: linear-gradient(to right, rgb(137, 137, 252),rgb(62, 62, 245));
 }
 .clr-blue{
     color: rgb(81, 81, 248);
+    
 }
 
 
@@ -142,11 +145,13 @@ section{
     gap: 15px;
 }
 .form-input input{
+    font-size: 14px;
     flex-basis: 50%;
     padding: 20px 5px;
     margin-bottom: 15px;
 }
 .form-input textarea{
+    font-size: 14px;
     flex-basis: 100%;
     padding: 20px 0px;
 
